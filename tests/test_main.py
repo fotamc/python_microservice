@@ -11,6 +11,7 @@ def test_read_root():
     assert response.json() == {"message":"Hell on World"}
 
 def test_read_data():
+    """funtion docstring"""
     response = client.get("/data/ion")
     assert response.status_code == 200
     assert response.json() == {"message":"Hell on World ion"}
