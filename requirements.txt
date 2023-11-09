@@ -1,7 +1,10 @@
 fastapi
 uvicorn
+httpx
 
 pylint
 pytest
 mypy
-httpx
+
+black
+
