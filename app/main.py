@@ -14,4 +14,3 @@ async def read_root():
 async def read_data(name: str):
     """funtion docstring"""
     return {"message": f"Hello World {name.capitalize()}"}
-
