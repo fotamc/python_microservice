@@ -14,4 +14,4 @@ def test_read_data():
     """funtion docstring"""
     response = client.get("/data/ion")
     assert response.status_code == 200
-    assert response.json() == {"message":"Hello World ion"}
+    assert response.json() == {"message":"Hello World Ion"}
